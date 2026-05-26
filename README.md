@@ -67,17 +67,33 @@ turns its `PipelineResult` objects into a labels DataFrame:
 
 ```python
 import pandas as pd
-from multipass_judge import run_multipass_pipeline
+from isolate_steps import Judge
+from multipass_judge import run_multipass_from_thinking
 from extract_labels import extract_labels
 
+judge = Judge()  # uses GEMINI_API_KEY
 rollouts = pd.read_csv("rollouts.csv").to_dict("records")
-items = [(run_multipass_pipeline(row["cot"], row["prompt"]), row) for row in rollouts]
+
+items = []
+for row in rollouts:
+    gt_steps = str(row["steps"]).splitlines() if row.get("steps") else None
+    result = run_multipass_from_thinking(
+        question=row["prompt"],
+        hint=row.get("prompted_hint", ""),
+        thinking=row["cot"],
+        model_answer=row.get("model_answer", ""),
+        judge=judge,
+        ground_truth_steps=gt_steps,
+    )
+    items.append((result, row))
+
 labels_df = extract_labels(items)
 labels_df.to_csv("labels_prefilter.csv", index=False)
 ```
 
-See `multipass_judge.run_multipass_pipeline` for the full set of judge options
-(regime, ground-truth steps, model selection, parallelism).
+See `multipass_judge.run_multipass_from_thinking` for the full set of judge
+options (chunk size, adversarial validation, dual-adversarial, parallelism,
+etc.).
 
 ### 3. Filter into the final labeled dataset
 
