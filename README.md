@@ -104,7 +104,7 @@ flags.
 
 ## Datasets
 
-The CSV inputs used in the paper are **not** bundled with this repository.
+The CSV inputs used in the paper are **not** bundled with this repository, but can be found on [HuggingFace](https://huggingface.co/collections/yoavgurarieh/bonafide).
 The pipeline expects standard CSV inputs (one prompt per row, plus the
 columns referenced in each metric's `--help` output).
 
