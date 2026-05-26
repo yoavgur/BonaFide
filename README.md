@@ -20,9 +20,9 @@
 **BonaFide** is a benchmark of chain-of-thought traces annotated with ground-truth faithfulness labels, where a step is faithful iff the process it describes matches the model's actual computation. The labels enable direct meta-evaluation of CoT faithfulness metrics at both the step and CoT level.
 
 This repository contains the code for reproducing the results of the **BonaFide** paper. It includes the full pipeline for building BonaFide-style labeled CoT data — generation, LLM-judge analysis, label extraction, and dataset filtering — together with the faithfulness metric implementations evaluated in the paper.
-<br clear="right"/>
 
-See the complete BonaFide dataset and leaderboard on [HuggingFace](https://huggingface.co/collections/yoavgurarieh/bonafide), and the paper on [arXiv](https://arxiv.org/pdf/2605.25052)!
+See the complete BonaFide dataset and leaderboard on <a href="https://huggingface.co/collections/yoavgurarieh/bonafide">HuggingFace</a>, and the paper on <a href="https://arxiv.org/pdf/2605.25052">arXiv</a>!
+<br clear="right"/>
 
 <img width="1255" height="648" alt="image" src="https://github.com/user-attachments/assets/ae942550-a79f-485e-9cd1-de9368666338" />
 
