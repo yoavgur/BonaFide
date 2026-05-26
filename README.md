@@ -10,19 +10,18 @@
   />
 </p> -->
 
-<p>
-  <img
-    src="https://github.com/user-attachments/assets/a51b670c-b1bd-4fed-8af5-a9e04f0d4524"
-    alt="BonaFide logo"
-    width="160"
-    align="center"
-  />
-Code for reproducing the results of the **BonaFide** paper on chain-of-thought
-faithfulness in language models. This repository contains the full pipeline for building BonaFide-style
-labeled CoT data — generation, LLM-judge analysis, label extraction, and
-dataset filtering — together with the faithfulness metric implementations
-evaluated in the paper. Experimental notebooks, annotation UI, internal
-analysis scripts, and the raw dataset CSVs themselves have been omitted.</p>
+<img
+  align="right"
+  width="220"
+  alt="BonaFide logo"
+  src="https://github.com/user-attachments/assets/a51b670c-b1bd-4fed-8af5-a9e04f0d4524"
+/>
+
+Code for reproducing the results of the **BonaFide** paper on chain-of-thought faithfulness in language models.
+
+This repository contains the full pipeline for building BonaFide-style labeled CoT data — generation, LLM-judge analysis, label extraction, and dataset filtering — together with the faithfulness metric implementations evaluated in the paper. Experimental notebooks, annotation UI, internal analysis scripts, and the raw dataset CSVs themselves have been omitted.
+
+<br clear="right"/>
 
 Code for reproducing the results of the **BonaFide** paper on chain-of-thought
 faithfulness in language models.
