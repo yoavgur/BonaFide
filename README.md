@@ -12,7 +12,7 @@
 
 <img
   align="right"
-  width="160"
+  width="180"
   alt="BonaFide logo"
   src="https://github.com/user-attachments/assets/a51b670c-b1bd-4fed-8af5-a9e04f0d4524"
 />
