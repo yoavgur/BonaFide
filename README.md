@@ -5,10 +5,13 @@
     width="160"
     height="160"
     alt="bonafide_logo"
-    src="https://github.com/user-attachments/assets/f55d2a85-a2fe-4f60-8fe4-86a3177a52"
+    src="https://github.com/user-attachments/assets/5cd12724-642b-4221-8a5b-7cb0f2837805"
     style="background-color: white;"
   />
 </p>
+
+<img width="640" height="640" alt="bonafide_logo" src="https://github.com/user-attachments/assets/5cd12724-642b-4221-8a5b-7cb0f2837805" />
+
 
 Code for reproducing the results of the **BonaFide** paper on chain-of-thought
 faithfulness in language models.
