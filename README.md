@@ -2,10 +2,11 @@
 
 <p align="center">
   <img
-    width="180"
-    height="180"
+    width="160"
+    height="160"
     alt="bonafide_logo"
     src="https://github.com/user-attachments/assets/a51b670c-b1bd-4fed-8af5-a9e04f0d4524"
+    style="background-color: white;"
   />
 </p>
 
