@@ -9,7 +9,7 @@ dataset filtering — together with the faithfulness metric implementations
 evaluated in the paper. Experimental notebooks, annotation UI, internal
 analysis scripts, and the raw dataset CSVs themselves have been omitted.
 
-See the complete BonaFide dataset and leaderboard on [HuggingFace](https://huggingface.co/collections/yoavgurarieh/bonafide)!
+See the complete BonaFide dataset and leaderboard on [HuggingFace](https://huggingface.co/collections/yoavgurarieh/bonafide), and the paper on [arXiv](https://arxiv.org/pdf/2605.25052)!
 
 <img width="1255" height="648" alt="image" src="https://github.com/user-attachments/assets/ae942550-a79f-485e-9cd1-de9368666338" />
 
