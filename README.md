@@ -1,7 +1,12 @@
 # BonaFide
 
 <p align="center">
-<img width="240" height="240" alt="bonafide_logo" src="https://github.com/user-attachments/assets/a51b670c-b1bd-4fed-8af5-a9e04f0d4524" />
+  <img
+    width="180"
+    height="180"
+    alt="bonafide_logo"
+    src="https://github.com/user-attachments/assets/a51b670c-b1bd-4fed-8af5-a9e04f0d4524"
+  />
 </p>
 
 Code for reproducing the results of the **BonaFide** paper on chain-of-thought
