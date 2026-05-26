@@ -11,6 +11,8 @@ analysis scripts, and the raw dataset CSVs themselves have been omitted.
 
 See the complete BonaFide dataset and leaderboard on [HuggingFace](https://huggingface.co/collections/yoavgurarieh/bonafide)!
 
+<img width="1255" height="648" alt="image" src="https://github.com/user-attachments/assets/ae942550-a79f-485e-9cd1-de9368666338" />
+
 ## Layout
 
 ```
