@@ -107,3 +107,19 @@ flags.
 The CSV inputs used in the paper are **not** bundled with this repository.
 The pipeline expects standard CSV inputs (one prompt per row, plus the
 columns referenced in each metric's `--help` output).
+
+---
+
+## Citation
+
+```bibtex
+@misc{gurarieh2026faithfulnessmetricsdontmeasure,
+      title={Faithfulness Metrics Don't Measure Faithfulness: A Meta-Evaluation with Ground Truth}, 
+      author={Yoav Gur-Arieh and Ana Marasović and Mor Geva},
+      year={2026},
+      eprint={2605.25052},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.25052}, 
+}
+```
