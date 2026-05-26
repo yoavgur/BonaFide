@@ -5,7 +5,7 @@
     width="160"
     height="160"
     alt="bonafide_logo"
-    src="https://github.com/user-attachments/assets/a51b670c-b1bd-4fed-8af5-a9e04f0d4524"
+    src="https://github.com/user-attachments/assets/f55d2a85-a2fe-4f60-8fe4-86a3177a52"
     style="background-color: white;"
   />
 </p>
